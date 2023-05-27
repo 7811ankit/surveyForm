@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./GeneralCSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12" id="header1">
+          <h1 id="header2">Survey Form:</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="CustomerName">
+          <h2 style="color: whitesmoke">Customer Name</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <input type="text" aria-label="First name" class="form-control" />
+          <h6 style="color: whitesmoke">Enter your first name</h6>
+        </div>
+
+        <div class="col-3">
+          <input type="text" aria-label="Last name" class="form-control" />
+          <h6 style="color: whitesmoke">Enter your last name</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12"><h2 style="color: whitesmoke">Address</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg"
+          />
+          <h6 style="color: whitesmoke">Street Address</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg"
+          />
+          <h6 style="color: whitesmoke">Street Address Line2</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input type="text" class="form-control" aria-label="Username" />
+          <h6 style="color: whitesmoke">City</h6>
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control" aria-label="Username" />
+          <h6 style="color: whitesmoke">State</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input type="text" class="form-control" aria-label="Username" />
+          <h6 style="color: whitesmoke">Zip</h6>
+        </div>
+      </div>
+      <!-- ********************************************************************* -->
+      <br />
+      <!-- --------------------------------------------------------- -->
+      <div class="row">
+        <div class="col-8">
+          <select class="form-select" id="inputGroupSelect01">
+            <option selected>India</option>
+            <option value="1">India</option>
+            <option value="2">UK</option>
+            <option value="3">USA</option>
+            <option value="3">Nepal</option>
+          </select>
+          <h6 style="color: whitesmoke">SelectCountry</h6>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------- -->
+      <br />
+      <!-- ---------------------------------------------------- -->
+      <div class="row">
+        <div class="col-12">
+          <h2 style="color: whitesmoke">Contact</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input type="text" class="form-control" />
+          <h6 style="color: whitesmoke">Phone</h6>
+        </div>
+        <div class="col-4">
+          <input type="email" class="form-control" />
+          <h6 style="color: whitesmoke">Email</h6>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <h2 style="color: whitesmoke">Person Details</h2>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label
+            class="form-check-label"
+            for="flexRadioDefault1"
+            style="color: whitesmoke"
+          >
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label
+            class="form-check-label"
+            for="flexRadioDefault2"
+            style="color: whitesmoke"
+          >
+            Female
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label
+            class="form-check-label"
+            for="flexRadioDefault2"
+            style="color: whitesmoke"
+          >
+            Other
+          </label>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 3:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 4:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 5:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 6:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <label
+            class="form-check-label"
+            for="inlineRadio1"
+            style="color: whitesmoke"
+            >Rating 7:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio1"
+              style="color: whitesmoke"
+              >Bad</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio2"
+              style="color: whitesmoke"
+              >Good</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label
+              class="form-check-label"
+              for="inlineRadio3"
+              style="color: whitesmoke"
+              >Excelent</label
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-5">
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
